@@ -15,7 +15,7 @@ export default function SiteFooter() {
           </div>
           <div>
             <h4>Explore</h4>
-            <Link href="/map">Interactive map</Link>
+            <Link href="/">Dashboard map</Link>
             <Link href="/species">Species explorer</Link>
             <Link href="/compare">Scenario comparison</Link>
             <Link href="/analytics">Analytics</Link>
