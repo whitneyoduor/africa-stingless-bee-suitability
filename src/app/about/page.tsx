@@ -66,10 +66,17 @@ export default function AboutPage() {
           </div>
           <div className="panel-body">
             <p>
-              Suitability surfaces are model-derived estimates of environmental
-              suitability for each species, expressed on a 0–1 index. Values near 1
-              indicate highly suitable conditions; values near 0 indicate unsuitable
-              conditions. Areas with no model support are shown as transparent.
+              Layers are model-derived estimates of environmental suitability for each
+              species. Pixel values span 0–1; values near 1 indicate more suitable
+              conditions and values near 0 indicate unsuitable conditions. Areas with
+              no model support are shown as transparent (no-data).
+            </p>
+            <p>
+              The exact definition of the index (e.g. probability of occurrence versus
+              habitat suitability), the baseline period, and the specific climate
+              models behind each scenario should be confirmed with the data provider.
+              The 2041–2070 window for future layers is taken directly from the source
+              filenames.
             </p>
             <p>
               Future layers represent the 2041–2070 climatology under two Shared
@@ -78,18 +85,21 @@ export default function AboutPage() {
               projected shifts in suitable area.
             </p>
             <p>
-              Multiple modelling approaches are provided where available (continental
-              extent, MaxEnt, Random Forest, ensemble and masked variants). Layers
-              should be compared within the same modelling approach.
+              Multiple layer variants are provided where available, distinguished by
+              a filename suffix: <strong>africa</strong>, <strong>maxnet</strong>,{' '}
+              <strong>rf</strong>, <strong>esm</strong> and <strong>masked</strong>.
+              Compare layers only within the same suffix. The precise meaning of each
+              suffix should be confirmed with the data provider.
             </p>
           </div>
         </div>
       </div>
 
       <div className="note" style={{ marginTop: 22 }}>
-        These are modelled suitability surfaces, not observed occurrence records. They
-        should be interpreted with appropriate uncertainty and are provided for
-        research and planning purposes.
+        These are modelled surfaces, not observed occurrence records. Several details
+        (index definition, baseline period, climate models, and layer suffixes) are not
+        documented in the source files and should be confirmed with the data provider.
+        Interpret with appropriate uncertainty; intended for research and planning.
       </div>
     </div>
   );
