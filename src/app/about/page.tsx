@@ -94,13 +94,6 @@ export default function AboutPage() {
           </div>
         </div>
       </div>
-
-      <div className="note" style={{ marginTop: 22 }}>
-        These are modelled surfaces, not observed occurrence records. Several details
-        (index definition, baseline period, climate models, and layer suffixes) are not
-        documented in the source files and should be confirmed with the data provider.
-        Interpret with appropriate uncertainty; intended for research and planning.
-      </div>
     </div>
   );
 }
