@@ -20,6 +20,8 @@ export default function Dashboard({ species, records, classes, scenarios }: Prop
   const [scenario, setScenario] = useState(scenarios[0] ?? 'Baseline');
   const [model, setModel] = useState('');
   const [opacity, setOpacity] = useState(0.82);
+  const [showAdmin, setShowAdmin] = useState(true);
+  const [basemap, setBasemap] = useState<'light' | 'streets'>('light');
 
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase();
@@ -142,6 +144,35 @@ export default function Dashboard({ species, records, classes, scenarios }: Prop
           </div>
 
           <div className="rail-section">
+            <div className="rail-title">Basemap</div>
+            <div className="seg">
+              <button
+                className={basemap === 'light' ? 'active' : ''}
+                onClick={() => setBasemap('light')}
+              >
+                Light
+              </button>
+              <button
+                className={basemap === 'streets' ? 'active' : ''}
+                onClick={() => setBasemap('streets')}
+              >
+                Streets
+              </button>
+            </div>
+          </div>
+
+          <div className="rail-section">
+            <label className="check">
+              <input
+                type="checkbox"
+                checked={showAdmin}
+                onChange={(e) => setShowAdmin(e.target.checked)}
+              />
+              <span>Admin-1 boundaries</span>
+            </label>
+          </div>
+
+          <div className="rail-section">
             <Legend classes={classes} />
           </div>
         </aside>
@@ -173,6 +204,8 @@ export default function Dashboard({ species, records, classes, scenarios }: Prop
               png={active.png}
               bounds={bounds}
               opacity={opacity}
+              basemap={basemap}
+              showAdmin={showAdmin}
               heightClass="map-tall"
             />
           ) : (

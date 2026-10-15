@@ -424,11 +424,15 @@ p {
   box-shadow: var(--shadow-sm);
 }
 
-.map-frame .leaflet-container {
+.map-frame.maplibregl-map {
   width: 100%;
   height: 100%;
   background: #dfe7e2;
   font-family: var(--font);
+}
+
+.map-frame .maplibregl-ctrl-attrib {
+  font-size: 10px;
 }
 
 .map-tall {
@@ -929,7 +933,7 @@ table.data th,
 .seg {
   display: flex;
   border: 1px solid var(--border-strong);
-  border-radius: 8px;
+  border-radius: var(--radius);
   overflow: hidden;
 }
 
@@ -953,6 +957,22 @@ table.data th,
 .seg button.active {
   background: var(--brand);
   color: #fff;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--ink-soft);
+  cursor: pointer;
+  user-select: none;
+}
+
+.check input {
+  accent-color: var(--brand);
+  width: 15px;
+  height: 15px;
 }
 
 .dash-main {
