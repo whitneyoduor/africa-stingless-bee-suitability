@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T09:02:31.371Z",
+  "generatedAt": "2026-10-15T10:14:32.886Z",
   "title": "Africa Stingless Bee Suitability",
   "organisation": "icipe",
   "bounds": [
@@ -326,7 +326,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 168294
+      "bytes": 157572
     },
     {
       "id": "cleptotrigona-cubiceps-suitability-africa-ssp126-2041-2070",
@@ -351,7 +351,7 @@
       "validPixels": 371047,
       "totalPixels": 932052,
       "coverage": 0.3981,
-      "bytes": 98050
+      "bytes": 93159
     },
     {
       "id": "cleptotrigona-cubiceps-suitability-africa-ssp370-2041-2070",
@@ -376,7 +376,7 @@
       "validPixels": 371047,
       "totalPixels": 932052,
       "coverage": 0.3981,
-      "bytes": 95574
+      "bytes": 90971
     },
     {
       "id": "dactylurina-schmidti-suitability-africa",
@@ -401,7 +401,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 164999
+      "bytes": 155410
     },
     {
       "id": "dactylurina-schmidti-suitability-africa-ssp126-2041-2070",
@@ -426,7 +426,7 @@
       "validPixels": 371047,
       "totalPixels": 932052,
       "coverage": 0.3981,
-      "bytes": 82850
+      "bytes": 79340
     },
     {
       "id": "dactylurina-schmidti-suitability-africa-ssp370-2041-2070",
@@ -451,7 +451,7 @@
       "validPixels": 371047,
       "totalPixels": 932052,
       "coverage": 0.3981,
-      "bytes": 82227
+      "bytes": 78904
     },
     {
       "id": "dactylurina-staudingeri-suitability-africa",
@@ -476,7 +476,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 240037
+      "bytes": 223283
     },
     {
       "id": "dactylurina-staudingeri-suitability-maxnet",
@@ -501,7 +501,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 209896
+      "bytes": 197260
     },
     {
       "id": "dactylurina-staudingeri-suitability-rf",
@@ -526,7 +526,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 274052
+      "bytes": 254426
     },
     {
       "id": "dactylurina-staudingeri-suitability-africa-ssp126-2041-2070",
@@ -551,7 +551,7 @@
       "validPixels": 371047,
       "totalPixels": 932052,
       "coverage": 0.3981,
-      "bytes": 144817
+      "bytes": 134796
     },
     {
       "id": "dactylurina-staudingeri-suitability-africa-ssp370-2041-2070",
@@ -576,7 +576,7 @@
       "validPixels": 371047,
       "totalPixels": 932052,
       "coverage": 0.3981,
-      "bytes": 146673
+      "bytes": 136639
     },
     {
       "id": "hypotrigona-araujoi-esm",
@@ -601,7 +601,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 128171
+      "bytes": 121509
     },
     {
       "id": "hypotrigona-araujoi-suitability-africa-ssp126-2041-2070",
@@ -626,7 +626,7 @@
       "validPixels": 371047,
       "totalPixels": 932052,
       "coverage": 0.3981,
-      "bytes": 92258
+      "bytes": 87392
     },
     {
       "id": "hypotrigona-araujoi-suitability-africa-ssp370-2041-2070",
@@ -651,7 +651,7 @@
       "validPixels": 371047,
       "totalPixels": 932052,
       "coverage": 0.3981,
-      "bytes": 90907
+      "bytes": 86158
     },
     {
       "id": "hypotrigona-gribodoi-suitability-africa",
@@ -676,7 +676,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 388813
+      "bytes": 360024
     },
     {
       "id": "hypotrigona-gribodoi-suitability-maxnet",
@@ -701,7 +701,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 527472
+      "bytes": 488988
     },
     {
       "id": "hypotrigona-gribodoi-suitability-rf",
@@ -726,7 +726,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 327933
+      "bytes": 303347
     },
     {
       "id": "hypotrigona-gribodoi-suitability-africa-ssp126-2041-2070",
@@ -751,7 +751,7 @@
       "validPixels": 371047,
       "totalPixels": 932052,
       "coverage": 0.3981,
-      "bytes": 221241
+      "bytes": 207256
     },
     {
       "id": "hypotrigona-gribodoi-suitability-africa-ssp370-2041-2070",
@@ -776,7 +776,7 @@
       "validPixels": 371047,
       "totalPixels": 932052,
       "coverage": 0.3981,
-      "bytes": 212907
+      "bytes": 199622
     },
     {
       "id": "hypotrigona-ruspolii-suitability-africa",
@@ -801,7 +801,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 361004
+      "bytes": 336568
     },
     {
       "id": "hypotrigona-ruspolii-suitability-maxnet",
@@ -826,7 +826,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 482447
+      "bytes": 453432
     },
     {
       "id": "hypotrigona-ruspolii-suitability-rf",
@@ -851,7 +851,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 282494
+      "bytes": 263826
     },
     {
       "id": "hypotrigona-ruspolii-suitability-africa-ssp126-2041-2070",
@@ -876,7 +876,7 @@
       "validPixels": 371047,
       "totalPixels": 932052,
       "coverage": 0.3981,
-      "bytes": 108047
+      "bytes": 102184
     },
     {
       "id": "hypotrigona-ruspolii-suitability-africa-ssp370-2041-2070",
@@ -901,7 +901,7 @@
       "validPixels": 371047,
       "totalPixels": 932052,
       "coverage": 0.3981,
-      "bytes": 105402
+      "bytes": 100029
     },
     {
       "id": "liotrigona-bottegoi-suitability-africa",
@@ -926,7 +926,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 233842
+      "bytes": 221195
     },
     {
       "id": "liotrigona-bottegoi-suitability-maxnet",
@@ -951,7 +951,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 313126
+      "bytes": 296485
     },
     {
       "id": "liotrigona-bottegoi-suitability-rf",
@@ -976,7 +976,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 199155
+      "bytes": 188953
     },
     {
       "id": "liotrigona-bottegoi-suitability-africa-ssp126-2041-2070",
@@ -1001,7 +1001,7 @@
       "validPixels": 371047,
       "totalPixels": 932052,
       "coverage": 0.3981,
-      "bytes": 138103
+      "bytes": 131620
     },
     {
       "id": "liotrigona-bottegoi-suitability-africa-ssp370-2041-2070",
@@ -1026,7 +1026,7 @@
       "validPixels": 371047,
       "totalPixels": 932052,
       "coverage": 0.3981,
-      "bytes": 139701
+      "bytes": 133084
     },
     {
       "id": "liotrigona-madecassa-suitability-africa",
@@ -1051,7 +1051,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 217757
+      "bytes": 203839
     },
     {
       "id": "liotrigona-madecassa-suitability-masked",
@@ -1076,7 +1076,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 23324
+      "bytes": 22416
     },
     {
       "id": "liotrigona-madecassa-suitability-africa-ssp126-2041-2070",
@@ -1101,7 +1101,7 @@
       "validPixels": 371047,
       "totalPixels": 932052,
       "coverage": 0.3981,
-      "bytes": 116795
+      "bytes": 111748
     },
     {
       "id": "liotrigona-madecassa-suitability-africa-ssp370-2041-2070",
@@ -1126,7 +1126,7 @@
       "validPixels": 371047,
       "totalPixels": 932052,
       "coverage": 0.3981,
-      "bytes": 114984
+      "bytes": 109466
     },
     {
       "id": "meliponula-beccarii-suitability-africa",
@@ -1151,7 +1151,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 292093
+      "bytes": 271814
     },
     {
       "id": "meliponula-beccarii-suitability-maxnet",
@@ -1176,7 +1176,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 353517
+      "bytes": 332287
     },
     {
       "id": "meliponula-beccarii-suitability-rf",
@@ -1201,7 +1201,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 295965
+      "bytes": 274262
     },
     {
       "id": "meliponula-beccarii-suitability-africa-ssp126-2041-2070",
@@ -1226,7 +1226,7 @@
       "validPixels": 371047,
       "totalPixels": 932052,
       "coverage": 0.3981,
-      "bytes": 172041
+      "bytes": 162196
     },
     {
       "id": "meliponula-beccarii-suitability-africa-ssp370-2041-2070",
@@ -1251,7 +1251,7 @@
       "validPixels": 371047,
       "totalPixels": 932052,
       "coverage": 0.3981,
-      "bytes": 157313
+      "bytes": 148860
     },
     {
       "id": "meliponula-bocandei-suitability-africa",
@@ -1276,7 +1276,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 378993
+      "bytes": 354715
     },
     {
       "id": "meliponula-bocandei-suitability-maxnet",
@@ -1301,7 +1301,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 466129
+      "bytes": 435170
     },
     {
       "id": "meliponula-bocandei-suitability-rf",
@@ -1326,7 +1326,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 282960
+      "bytes": 261574
     },
     {
       "id": "meliponula-bocandei-suitability-africa-ssp126-2041-2070",
@@ -1351,7 +1351,7 @@
       "validPixels": 371047,
       "totalPixels": 932052,
       "coverage": 0.3981,
-      "bytes": 165269
+      "bytes": 155268
     },
     {
       "id": "meliponula-bocandei-suitability-africa-ssp370-2041-2070",
@@ -1376,7 +1376,7 @@
       "validPixels": 371047,
       "totalPixels": 932052,
       "coverage": 0.3981,
-      "bytes": 166318
+      "bytes": 155719
     },
     {
       "id": "meliponula-erythra-suitability-africa",
@@ -1401,7 +1401,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 174635
+      "bytes": 164926
     },
     {
       "id": "meliponula-erythra-suitability-africa-ssp126-2041-2070",
@@ -1426,7 +1426,7 @@
       "validPixels": 371047,
       "totalPixels": 932052,
       "coverage": 0.3981,
-      "bytes": 95948
+      "bytes": 92058
     },
     {
       "id": "meliponula-erythra-suitability-africa-ssp370-2041-2070",
@@ -1451,7 +1451,7 @@
       "validPixels": 371047,
       "totalPixels": 932052,
       "coverage": 0.3981,
-      "bytes": 94078
+      "bytes": 89745
     },
     {
       "id": "meliponula-ferruginea-suitability-africa",
@@ -1476,7 +1476,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 334298
+      "bytes": 308097
     },
     {
       "id": "meliponula-ferruginea-suitability-maxnet",
@@ -1501,7 +1501,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 363876
+      "bytes": 335610
     },
     {
       "id": "meliponula-ferruginea-suitability-rf",
@@ -1526,7 +1526,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 310644
+      "bytes": 285633
     },
     {
       "id": "meliponula-ferruginea-suitability-africa-ssp126-2041-2070",
@@ -1551,7 +1551,7 @@
       "validPixels": 371047,
       "totalPixels": 932052,
       "coverage": 0.3981,
-      "bytes": 172323
+      "bytes": 162215
     },
     {
       "id": "meliponula-ferruginea-suitability-africa-ssp370-2041-2070",
@@ -1576,7 +1576,7 @@
       "validPixels": 371047,
       "totalPixels": 932052,
       "coverage": 0.3981,
-      "bytes": 167588
+      "bytes": 157037
     },
     {
       "id": "meliponula-togoensis-suitability-africa",
@@ -1601,7 +1601,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 174225
+      "bytes": 164524
     },
     {
       "id": "meliponula-togoensis-suitability-africa-ssp126-2041-2070",
@@ -1626,7 +1626,7 @@
       "validPixels": 371047,
       "totalPixels": 932052,
       "coverage": 0.3981,
-      "bytes": 131901
+      "bytes": 125074
     },
     {
       "id": "meliponula-togoensis-suitability-africa-ssp370-2041-2070",
@@ -1651,7 +1651,7 @@
       "validPixels": 371047,
       "totalPixels": 932052,
       "coverage": 0.3981,
-      "bytes": 133159
+      "bytes": 125675
     },
     {
       "id": "plebeina-armata-suitability-africa",
@@ -1676,7 +1676,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 314953
+      "bytes": 293143
     },
     {
       "id": "plebeina-armata-suitability-maxnet",
@@ -1701,7 +1701,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 427939
+      "bytes": 398376
     },
     {
       "id": "plebeina-armata-suitability-rf",
@@ -1726,7 +1726,7 @@
       "validPixels": 366201,
       "totalPixels": 932052,
       "coverage": 0.3929,
-      "bytes": 256811
+      "bytes": 238528
     },
     {
       "id": "plebeina-armata-suitability-africa-ssp126-2041-2070",
@@ -1751,7 +1751,7 @@
       "validPixels": 371047,
       "totalPixels": 932052,
       "coverage": 0.3981,
-      "bytes": 143991
+      "bytes": 136132
     },
     {
       "id": "plebeina-armata-suitability-africa-ssp370-2041-2070",
@@ -1776,7 +1776,7 @@
       "validPixels": 371047,
       "totalPixels": 932052,
       "coverage": 0.3981,
-      "bytes": 137512
+      "bytes": 129788
     }
   ]
 }

@@ -104,22 +104,41 @@ async function processFile(file) {
   }
   const mean = valid ? sum / valid : 0;
 
+  const minLon = bbox[0];
+  const minLat = bbox[1];
+  const maxLat = bbox[3];
+
+  const mercY = (lat) => Math.log(Math.tan(Math.PI / 4 + (lat * Math.PI) / 360));
+  const invMercY = (m) => ((2 * Math.atan(Math.exp(m)) - Math.PI / 2) * 180) / Math.PI;
+  const mercTop = mercY(maxLat);
+  const mercBottom = mercY(minLat);
+
   const png = new PNG({ width, height });
-  for (let i = 0; i < band.length; i++) {
-    const v = band[i];
-    const o = i * 4;
-    if (v == null || Number.isNaN(v) || !Number.isFinite(v)) {
-      png.data[o] = 0;
-      png.data[o + 1] = 0;
-      png.data[o + 2] = 0;
-      png.data[o + 3] = 0;
-      continue;
+  for (let j = 0; j < height; j++) {
+    const t = height > 1 ? j / (height - 1) : 0;
+    const merc = mercTop + t * (mercBottom - mercTop);
+    const lat = invMercY(merc);
+    let srcRow = Math.round(((maxLat - lat) / (maxLat - minLat)) * (height - 1));
+    if (srcRow < 0) srcRow = 0;
+    if (srcRow > height - 1) srcRow = height - 1;
+    const srcBase = srcRow * width;
+    const dstBase = j * width;
+    for (let i = 0; i < width; i++) {
+      const v = band[srcBase + i];
+      const o = (dstBase + i) * 4;
+      if (v == null || Number.isNaN(v) || !Number.isFinite(v)) {
+        png.data[o] = 0;
+        png.data[o + 1] = 0;
+        png.data[o + 2] = 0;
+        png.data[o + 3] = 0;
+        continue;
+      }
+      const c = classify(v);
+      png.data[o] = c.color[0];
+      png.data[o + 1] = c.color[1];
+      png.data[o + 2] = c.color[2];
+      png.data[o + 3] = c.alpha;
     }
-    const c = classify(v);
-    png.data[o] = c.color[0];
-    png.data[o + 1] = c.color[1];
-    png.data[o + 2] = c.color[2];
-    png.data[o + 3] = c.alpha;
   }
 
   if (!fs.existsSync(OUT_RASTERS)) fs.mkdirSync(OUT_RASTERS, { recursive: true });

@@ -26,12 +26,12 @@ export default function SiteHeader() {
                 fill="rgba(255,255,255,0.92)"
               />
               <path d="M6 5.5 9 8M18 5.5 15 8" stroke="rgba(255,255,255,0.92)" strokeWidth="1.6" strokeLinecap="round" />
-              <path d="M5 13h14M5 17h14" stroke="#1f6b3b" strokeWidth="1.4" />
+              <path d="M5 13h14M5 17h14" stroke="#134e4a" strokeWidth="1.4" />
             </svg>
           </span>
           <span className="titles">
             <span className="t1">Africa Stingless Bee Suitability</span>
-            <span className="t2">icipe · climate suitability dashboard</span>
+            <span className="t2">icipe · distribution suitability dashboard</span>
           </span>
         </Link>
         <nav className="nav">
