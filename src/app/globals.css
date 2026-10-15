@@ -426,7 +426,6 @@ p {
 
 .map-frame.maplibregl-map {
   width: 100%;
-  height: 100%;
   background: #dfe7e2;
   font-family: var(--font);
 }
